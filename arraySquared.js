@@ -19,7 +19,7 @@ function same(arr1, arr2) {
   return true;
 }
 
-//refactored
+//refactored FREQUENCY COUNTER
 function same(arr1, arr2){
     if(arr1.length !== arr2.length){
         return false;
