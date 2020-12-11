@@ -1,4 +1,5 @@
 // Builds up the sort by gradually creating a larger left half which is always sorted
+// worst case if the given array is sorted in reverse (largest to smallest)
 
 function insertionSort(arr){
 	var currentVal;
