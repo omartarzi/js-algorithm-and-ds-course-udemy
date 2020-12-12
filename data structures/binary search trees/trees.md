@@ -29,3 +29,4 @@
 * Insertion - O(log n)
 * Searching - O(log n)
 * NOT GUARANTEED
+  * Would be O(n) if the tree was entirely one sided (so basically a linked list)
