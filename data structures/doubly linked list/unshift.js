@@ -1,17 +1,13 @@
 unshift(val){
     var newNode = new Node(val);
-    if(!this.head) {
+    if(this.length === 0) {
         this.head = newNode;
-        this.tail = this.head;
+        this.tail = newNode;
     } else {
+        this.head.prev = newNode;
         newNode.next = this.head;
         this.head = newNode;
     }
     this.length++;
     return this;
 }
-
-var list = new SinglyLinkedList()
-list.push("HELLO")
-list.push("GOODBYE")
-list.push("!")

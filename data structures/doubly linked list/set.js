@@ -1,6 +1,6 @@
 set(index, val){
     var foundNode = this.get(index);
-    if(foundNode){
+    if(foundNode != null){
         foundNode.val = val;
         return true;
     }
